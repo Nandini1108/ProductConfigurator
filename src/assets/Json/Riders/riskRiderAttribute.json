@@ -1,0 +1,59 @@
+{
+    "id": "C001",
+    "code": "S00304",
+    "version": null,
+    "name": "RISK",
+    "desc": null,
+    "relationshipTypeName": "RIDER",
+    "attributes": [{
+            "name": "Date of Birth",
+            "id": "birthDate",
+            "controlType": "text",
+            "dataType": "dateTime",
+            "values": null,
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "age",
+            "id": "age",
+            "controlType": "text",
+            "dataType": "number",
+            "values": null,
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Email",
+            "id": "email",
+            "controlType": "text",
+            "dataType": "string",
+            "values": null,
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "First Name",
+            "id": "firstName",
+            "controlType": "text",
+            "dataType": "string",
+            "values": null,
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Last Name",
+            "id": "lastName",
+            "controlType": "text",
+            "dataType": "string",
+            "values": null,
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "attributes": [
+        {
+            "name": "isHardCopyAllowed",
+            "dataType": "boolean",
+            "value": true,
+            "displayName": "Is Hard Copy Allowed",
+            "behaviour": [{
+                "value": "SALES"
+            }]
+        },
+        {
+            "name": "isHardCopySelected",
+            "dataType": "boolean",
+            "value": null,
+            "displayName": "Is Hard Copy Selected",
+            "behaviour": [{
+                "value": "SALES"
+            }]
+        },
+        {
+            "name": "hardCopyCost",
+            "dataType": "number",
+            "value": null,
+            "displayName": "Hard Copy Cost",
+            "behaviour": [{
+                "value": "SALES"
+            }]
+        },
+        {
+            "name": "policyPremium",
+            "dataType": "number",
+            "value": null,
+            "displayName": "Policy Premium",
+            "behaviour": [{
+                "value": "SALES"
+            }]
+        }
+    ]
+}

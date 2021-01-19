@@ -1,0 +1,50 @@
+{
+    "attributes": [
+        {
+            "name": "freeLookPeriod",
+            "dataType": "number",
+            "value": null,
+            "displayName": "Free Look Period",
+            "behaviour": [{
+                "value": "CANCEL"
+            }]
+        },
+        {
+            "name": "freeLookPeriodUnit",
+            "dataType": "string",
+            "value": null,
+            "displayName": "Free Look Period Unit",
+            "behaviour": [{
+                "value": "CANCEL"
+            }]
+        },
+        {
+            "name": "policyCancelDate",
+            "dataType": "string",
+            "value": null,
+            "displayName": "Policy Cancel Date",
+            "behaviour": [{
+                "value": "CANCEL"
+            }]
+        },
+        {
+            "name": "isRefundAllowed",
+            "dataType": "boolean",
+            "value": false,
+            "displayName": "Is Refund Allowed",
+            "behaviour": [{
+                "value": "CANCEL"
+            }]
+        },
+        {
+            "name": "refundAmount",
+            "dataType": "number",
+            "value": null,
+            "displayName": "Refund Amount",
+            "behaviour": [{
+                "value": "CANCEL"
+            }]
+        }
+    ]
+}
+

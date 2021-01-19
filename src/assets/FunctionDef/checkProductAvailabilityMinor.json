@@ -1,0 +1,11 @@
+{
+    "allFunctionsDefinitions" : "function checkProductAvailability(birthDate,isMinor,scenario,isProductDisabled){if (isProductDisabled === true) {this.errorCode = 450;this.errorMessage = \"Product is not available\";return false;} if (scenario!=null && scenario!=\"\" && scenario.toUpperCase() == \"HOMETILE\") {return true;} var age = birthdayfunction(birthDate);if (isMinor.toString().toUpperCase() == \"TRUE\"){if(age >= ageMinorLower && age <= ageMinorUpper){return true;} else {this.errorMessage = \"Age should be within ageMinorLower to ageMinorUpper years for a minor.\";this.errorCode = 450;return false;}} if(isMinor.toString().toUpperCase() == \"FALSE\"){ if(age >= ageLower && age <= ageUpper){return true;} else {this.errorMessage = \"Age should be within ageLower to ageUpper years for an adult.\";this.errorCode = 450;return false;} } else {this.errorMessage = \"Please define isMinor value properly\";this.errorCode = 450;return false;}}",
+    "functionName": "checkProductAvailability",
+    "functionBody": "if (isProductDisabled === true) {this.errorCode = 450;this.errorMessage = \"Product is not available\";return false;} if (scenario!=null && scenario!=\"\" && scenario.toUpperCase() == \"HOMETILE\") {return true;} var age = birthdayfunction(birthDate);if (isMinor.toString().toUpperCase() == \"TRUE\"){if(age >= ageMinorLower && age <= ageMinorUpper){return true;} else {this.errorMessage = \"Age should be within ageMinorLower to ageMinorUpper years for a minor.\";this.errorCode = 450;return false;}} if(isMinor.toString().toUpperCase() == \"FALSE\"){ if(age >= ageLower && age <= ageUpper){return true;} else {this.errorMessage = \"Age should be within ageLower to ageUpper years for an adult.\";this.errorCode = 450;return false;} } else {this.errorMessage = \"Please define isMinor value properly\";this.errorCode = 450;return false;}",
+    "input": "birthDate,isMinor,scenario,isProductDisabled",
+    "output": {
+            "name": "planInfo",
+            "dataType": "jsonString"
+    }
+
+}

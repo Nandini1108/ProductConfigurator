@@ -1,0 +1,317 @@
+{
+    "id": "C002",
+    "code": "S00309",
+    "version": null,
+    "name": "DeathBenefit",
+    "desc": null,
+    "relationshipTypeName": "BASEPLAN",
+    "attributes": [
+        {
+            "name": "Waiting Period",
+            "id": "waitingperiod",
+            "controlType": "text",
+            "dataType": "number",
+            "values": null,
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "CLAIMS Submission Period",
+            "id": "CLAIMSSubmissionPeriod",
+            "controlType": "text",
+            "dataType": "number",
+            "values": null,
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "Cause Of Death",
+            "id": "causeOfDeath",
+            "controlType": "text",
+            "dataType": "string",
+            "values": null,
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "Indemnity Multiplier",
+            "id": "indemnityMultiplier",
+            "controlType": "text",
+            "dataType": "number",
+            "values": null,
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "Does death benefit accelarate or always paid in lupmpsum?",
+            "id": "deathBenefitFixed",
+            "controlType": "radio",
+            "dataType": "boolean",
+            "values": null,
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Is death CLAIMS plan driven or a fixed lumpsum?",
+            "id": "deathPlanBased",
+            "controlType": "radio",
+            "dataType": "boolean",
+            "values": null,
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "Sample Attribute",
+            "id": "sampleAttribute",
+            "controlType": "dropdown",
+            "value": "value1,value2,value3",
+            "dataType": "string",
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Premium",
+            "id": "waitingperiod",
+            "controlType": "text",
+            "dataType": "number",
+            "values": null,
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "BasePremium",
+            "id": "base_totalPremium",
+            "dataType": "number",
+            "controlType": "text",
+            "values": null,
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Maximum Sum Assured",
+            "id": "totalSumAssured",
+            "dataType": "number",
+            "controlType": "text",
+            "value": null,
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Base maximum Sum Assured",
+            "id": "base_totalSumAssured",
+            "dataType": "number",
+            "controlType": "text",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Base Policy Term",
+            "id": "base_policyTerm",
+            "controlType": "text",
+            "dataType": "number",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Base Waiting Period",
+            "id": "base_waitingPeriod",
+            "dataType": "number",
+            "controlType": "text",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Base Policy Status",
+            "id": "base_policyStatus",
+            "controlType": "text",
+            "dataType": "string",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Base Event Date",
+            "controlType": "text",
+            "id": "eventDate",
+            "dataType": "string",
+            "value": null,
+
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "Base Policy Start Date",
+            "id": "policyStartDate",
+            "controlType": "text",
+            "dataType": "string",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Cause Of Death",
+            "controlType": "text",
+            "id": "causeOfDeath",
+            "dataType": "string",
+            "value": null,
+            "behaviour": [{
+                "value": "CLAIMSS"
+            }]
+        },
+        {
+            "name": "Plan Code",
+            "controlType": "text",
+            "id": "planCode",
+            "dataType": "string",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Base Coverage premium",
+            "id": "base_coveragePremium",
+            "controlType": "text",
+            "dataType": "number",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "CLAIMSant Role",
+            "id": "CLAIMSantRole",
+            "controlType": "text",
+            "dataType": "string",
+            "value": "Beneficiary",
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Place Of Death",
+            "id": "placeOfDeath",
+            "controlType": "text",
+            "dataType": "string",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "Base CLAIMS Submission Period",
+            "id": "base_CLAIMSSubmissionPeriod",
+            "controlType": "text",
+            "dataType": "number",
+            "value": null,
+            "behaviour": [{
+                "value": "CLAIMSS"
+            }]
+        },
+        {
+            "name": "CLAIMS Submission Date",
+            "id": "CLAIMSSubmissionDate",
+            "controlType": "text",
+            "dataType": "string",
+            "value": null,
+
+            "behaviour": [{
+                "value": "CLAIMSS"
+            }]
+        },
+        {
+            "name": "base_isIMApplicable",
+            "id": "base_isIMApplicable",
+            "controlType": "radio",
+            "dataType": "boolean",
+            "value": null,
+
+            "behaviour": [{
+                "value": "CLAIMSS"
+            }]
+        },
+        {
+            "name": "base_isIMSelected",
+            "id": "base_isIMSelected",
+            "controlType": "radio",
+            "dataType": "boolean",
+            "value": null,
+
+
+            "behaviour": [{
+                "value": "CLAIMSS"
+            }]
+        },
+        {
+            "name": "base_IMRate",
+            "controlType": "text",
+            "id": "base_IMRate",
+            "dataType": "number",
+            "value": null,
+
+            "behaviour": [{
+                "value": "CLAIMSS"
+            }]
+        },
+        {
+            "name": "base_IMAllowedConditions",
+            "id": "base_IMAllowedConditions",
+            "controlType": "text",
+            "dataType": "string",
+            "value": null,
+            "behaviour": [{
+                "value": "CLAIMSS"
+            }]
+        },
+        {
+            "name": "CLAIMSTemplateType",
+            "controlType": "text",
+            "id": "CLAIMSTemplateType",
+            "dataType": "string",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        },
+        {
+            "name": "isSelected",
+            "controlType": "radio",
+            "id": "isSelected",
+            "dataType": "boolean",
+            "value": null,
+
+            "behaviour": [{
+                "value": "ALL"
+            }]
+        }
+    ]
+}

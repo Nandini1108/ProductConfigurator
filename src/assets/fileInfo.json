@@ -1,0 +1,12 @@
+{
+    "salesAttributePath" : "../assets/Json/salesAttribute.json",
+    "claimsAttributePath" : "../assets/Json/claimsAttribute.json",
+    "paymentAttributesPath" : "../assets/Json/paymentDetails.json",
+    "hardCopyAttributePath" : "../assets/Json/hardCopyAttribute.json",
+    "pulseJourneyAttributePath" : "../assets/Json/pulseJourneyAttribute.json",
+    "OVOJourneyAttributePath" : "../assets/Json/OVOJourneyAttribute.json",
+    "cancelAttributePath" : "../assets/Json/cancelAttribute.json",
+    "checkProductAvailabilityPath" : "../assets/FunctionDef/checkProductAvailability.json", 
+    "checkProductAvailabilityMinorPath" : "../assets/FunctionDef/checkProductAvailabilityMinor.json",
+    "tableValuesPath" : "../assets/Json/tableValues.json"
+}

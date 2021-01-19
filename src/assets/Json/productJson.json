@@ -1,0 +1,118 @@
+{
+    "_id": "PRODUCT_DEFINITION/S00541/A.2",
+    "documentType": "PRODUCT_DEFINITION",
+    "code": "S00541",
+    "version": "A.2",
+    "shortName": null,
+    "fullName": null,
+    "desc": null,
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "toolVersion": "1.0.0.0",
+    "offeringType": "CUSTOMEROFFERING",
+    "canBeCloned": null,
+    "isTemplate": "N",
+    "status": "Inprogress",
+    "category": null,
+    "LBU": null,
+    "transactionContext": null,
+    "productDisplayBehaviour": null,
+    "salesPartner": {
+      "channel": []
+    },
+    "attributes": null,
+    "components": [
+      {
+        "id": "C001",
+        "code": "S00304",
+        "version": null,
+        "name": "RISK",
+        "desc": "RISK",
+        "relationshipTypeName": "INTERNAL",
+        "computeOverride": null,
+        "behaviours": [
+          {
+            "transactionContextRef": "ALL-ANY-ALL",
+            "displayIndex": 2,
+            "displayName": "RISK",
+            "isViewable": false,
+            "minimum": 1,
+            "default": 1,
+            "maximum": 1
+          }
+        ],
+        "attributes": [
+          {
+            "name": "birthDate",
+            "dataType": "dateTime",
+            "value": null,
+            "copyFromAttribute": null,
+            "copyToChild": false,
+            "behaviours": null
+          },
+          {
+            "name": "age",
+            "dataType": "number",
+            "value": null,
+            "copyFromAttribute": null,
+            "copyToChild": false,
+            "behaviours": null
+          },
+          {
+            "name": "email",
+            "dataType": "string",
+            "value": null,
+            "copyFromAttribute": null,
+            "copyToChild": false,
+            "behaviours": null
+          },
+          {
+            "name": "firstName",
+            "dataType": "string",
+            "value": null,
+            "copyFromAttribute": null,
+            "copyToChild": false,
+            "behaviours": null
+          },
+          {
+            "name": "lastName",
+            "dataType": "string",
+            "value": null,
+            "copyFromAttribute": null,
+            "copyToChild": false,
+            "behaviours": null
+          }
+        ]
+      }
+    ],
+    "insuredObjs": null,
+    "computes": {
+      "allFunctionsDefinitions": null,
+       "functionGroups": null,
+      "tables": null
+    },
+    "customerJourney": {
+      "journey": [
+        {
+          "transactionRef": "1",
+          "steps": [
+            {
+              "name": "CreateProposal",
+              "description": "CreateProposal",
+              "journeyId": "CreateProposal",
+              "eventTriggerAction": "START"
+            }
+          ]
+        }
+      ],
+      "auditDetail": null
+    },
+    "questionnaire": null,
+    "productDocumentTemplateMap": null,
+    "productDocument": null,
+    "auditDetail": {
+      "createTime": "2020-06-04T07:55:21.301275Z",
+      "updateTime": "2020-06-04T07:55:21.301275Z",
+      "updateBy": "Nandini"
+    }
+  }

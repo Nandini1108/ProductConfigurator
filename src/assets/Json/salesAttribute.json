@@ -1,0 +1,39 @@
+{ "attributes": [
+    {
+    "name": "totalSumAssured",
+    "dataType": "number",
+    "displayName": "Maximum Sum Assured",
+    "behaviour": [
+         {"value":"CLAIMS"},{"value":"SALES"}]
+},
+{
+    "name": "totalPremium",
+    "dataType": "String",
+    "displayName": "Premium",
+    "behaviour": [
+        {"value":"ALL"}]
+    },
+{
+    "name": "policyTerm",
+    "dataType": "number",
+    "displayName": "Policy Term",
+    "behaviour": [
+        {"value":"CLAIMS"},{"value":"SALES"}]
+    },
+{
+    "name": "policyTermUnit",
+    "dataType": "String",
+    "displayName": "Policy Term Unit",
+    "behaviour": [
+        {"value":"CLAIMS"},{"value":"SALES"}]
+    },
+{
+    "name": "planName",
+    "dataType": "String",
+    "displayName": "Plan Name",
+    "behaviour": [
+        {"value":"CLAIMS"},{"value":"SALES"}]
+    }
+]
+}
+

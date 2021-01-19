@@ -1,0 +1,40 @@
+{
+    "mappingData": [
+        {
+        "attrName":"base_policyStatus",
+        "baseAttr":"policyStatus"
+    },
+    {
+        "attrName":"base_waitingPeriod",
+        "baseAttr":"waitingPeriod"
+    },
+    {
+        "attrName":"base_claimSubmissionPeriod",
+        "baseAttr":"claimSubmissionPeriod"
+    },
+    {
+        "attrName":"base_policyTerm",
+        "baseAttr":"policyTerm"
+    },
+    {
+        "attrName":"base_isIMApplicable",
+        "baseAttr":"isIMApplicable"
+    },
+    {
+        "attrName":"base_isIMSelected",
+        "baseAttr":"isIMSelected"
+    },
+    {
+        "attrName":"base_IMRate",
+        "baseAttr":"IMRate"
+    },
+    {
+        "attrName":"base_IMAllowedConditions",
+        "baseAttr":"IMAllowedConditions"
+    },
+    {
+        "attrName":"base_totalSumAssured",
+        "baseAttr":"totalSumAssured"
+    }
+]
+}

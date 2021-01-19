@@ -1,0 +1,23 @@
+{
+    "uniqueCheck": [
+        {
+            "name": "MaxAllowedPoliciesPerUniqueIdentifier",
+            "attributes":"birthDate,firstName,LastName"
+        },
+        {
+            "name": "MaxAllowedPoliciesPerEmailIdentifier",
+            "attributes":"email"
+        },
+        {
+            "name": "MaxAllowedPoliciesCheck"
+        },
+        {
+            "name": "MaxAllowedPoliciesPerLifeAssuredCheck",
+            "attributes":"ktpId,NRC"
+        },
+        {
+            "name": "maxAllowedSACheck",
+            "attributes":"ktpId,NRC"
+        }        
+    ]
+}

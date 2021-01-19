@@ -1,0 +1,76 @@
+{ 
+    "data":[
+    {
+    "tableName": "T_WORKFLOW_EXTERNAL_VALIDATIONS",
+    "tableType": "EXTERNAL_VALIDATIONS",
+    "attributes": [
+        {
+            "name": "MaxAllowedPoliciesPerUniqueIdentifier",
+            "displayName": "Max Allowed Policies Per ID",
+            "values":  [{
+                "value": "birthDate"
+            },{
+            "value": "firstName"
+            },{
+            "value": "LastName"
+            }],
+            "ATTRIBUTE_NAME": "maxAllowedPolicies",
+            "ATTRIBUTE_VALUE": 1
+        },
+        {
+            "name": "MaxAllowedPoliciesPerEmailIdentifier",
+            "displayName": "Max Allowed Policies Per Email",
+            "values":  [{
+                "value": "email"
+            }],
+            "ATTRIBUTE_NAME": "maxAllowedPolicies",
+            "ATTRIBUTE_VALUE": 1
+        },
+        {
+            "name": "MaxAllowedPoliciesCheck",
+            "displayName": "Max Allowed Policies",
+            "values":   [{
+                "value": "value"
+            }
+        ],
+        "ATTRIBUTE_NAME": "maxAllowedPolicies",
+            "ATTRIBUTE_VALUE": 1
+        },
+        {
+            "name": "MaxAllowedPoliciesPerLifeAssuredCheck",
+            "displayName": "Max Allowed Policies Per Person",
+            "values":  [{
+                "value": "ktpId"
+            },{
+            "value": "NRIC"
+            }],
+            "ATTRIBUTE_NAME": "maxAllowedPolicies",
+            "ATTRIBUTE_VALUE": 1
+        },
+        {
+            "name": "maxAllowedSACheck",
+            "displayName": "Max Allowed Sum Assured",
+            "values":  [{
+                "value": "ktpId"
+            },{
+            "value": "NRIC"
+            }
+            ]
+        }
+    ]
+    },
+    {
+        "tableName": "T_Modal_Factor",
+        "tableType": "null",
+        "attributes": [
+            {
+                "attribute1": "paymentFrequency",
+                "attribute2":"modalFactor"
+            }
+        ]        
+        }
+    ]
+}
+
+
+        

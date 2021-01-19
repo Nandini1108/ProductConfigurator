@@ -1,0 +1,18 @@
+{ "attributes": [
+    {
+    "name": "paymentGatewayCode",
+    "dataType": "string",
+    "displayName": "Payment Gateway Code",
+    "behaviour": [
+         {"value":"SALES"}]
+},
+{
+    "name": "paymentMode",
+    "dataType": "string",
+    "displayName": "Payment Mode",
+    "behaviour": [
+        {"value":"ALL"}]
+    }
+]
+}
+

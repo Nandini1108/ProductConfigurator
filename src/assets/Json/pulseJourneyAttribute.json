@@ -1,0 +1,129 @@
+{ "attributes": [
+    {
+    "name": "scenario",
+    "dataType": "string",
+    "displayName": "Scenario",
+    "behaviour": [
+         {"value":"SALES"}]
+    },
+    {
+    "name": "retryInterval",
+    "dataType": "number",
+    "displayName": "Retry Interval",
+    "behaviour": [
+        {"value":"SALES"}]
+    },
+    {
+        "name": "noOfRetries",
+        "dataType": "number",
+        "value": true,
+        "displayName": "Number of retries",
+        "behaviour": [{
+            "value": "SALES"
+        }]
+    },
+    {
+        "name": "referralCode",
+        "dataType": "string",
+        "value": null,
+        "displayName": "Referral Code",
+        "behaviour": [{
+            "value": "SALES"
+        }]
+    },
+    {
+        "name": "ocrRealm",
+        "dataType": "string",
+        "value": null,
+        "displayName": "OCR Realm",
+        "behaviour": [{
+            "value": "SALES"
+        }]
+    },
+    {
+        "name": "availableForms",
+        "dataType": "string",
+        "value": null,
+        "displayName": "Available Forms",
+        "behaviour": [{
+            "value": "SALES"
+        }]
+    },
+    {
+        "name": "ocrCountry",
+        "dataType": "string",
+        "displayName": "OCR Country",
+        "behaviour": [
+             {"value":"SALES"}]
+    },
+    {
+        "name": "isProductDisabled",
+        "dataType": "boolean",
+        "displayName": "Is Product Disabled",
+        "behaviour": [
+            {"value":"ALL"}]
+    },
+    {
+            "name": "wizardPremiumUpdate",
+            "dataType": "string",
+            "value": null,
+            "displayName": "Wizard Premium Update",
+            "behaviour": [{
+                "value": "SALES"
+            }]
+    },
+    {
+            "name": "noOfBeneficiaries",
+            "dataType": "number",
+            "value": null,
+            "displayName": "Number of Beneficiaries",
+            "behaviour": [{
+                "value": "SALES"
+            }]
+    },
+    {
+            "name": "allocationPercentage",
+            "dataType": "number",
+            "value": null,
+            "displayName": "Allocation Percentage",
+            "behaviour": [{
+                "value": "ALL"
+            }]
+    },
+    {
+        "name": "underwritingType",
+        "dataType": "string",
+        "value": "GIO",
+        "displayName": "Underwriting Type",
+        "behaviour": [
+             {"value":"ALL"}]
+    },
+    {
+        "name": "isAMLRequired",
+        "dataType": "boolean",
+        "value": false,
+        "displayName": "AML Required",
+        "behaviour": [
+            {"value":"ALL"}]
+        },
+    {
+        "name": "OVO_Group_Master_Policy_Number",
+        "dataType": "number",
+        "value": null,
+        "displayName": "OVO Group Master Policy Number",
+        "behaviour": [{
+            "value": "ALL"
+        }]
+},
+{
+    "name": "OVO_Group_Source_policy_holder",
+    "dataType": "string",
+    "value": null,
+    "displayName": "OVO_Group Source Policy Holder",
+    "behaviour": [{
+        "value": "ALL"
+    }]
+}  
+]
+}
+

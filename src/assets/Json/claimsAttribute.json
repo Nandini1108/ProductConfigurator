@@ -1,0 +1,44 @@
+{
+    "attributes": [
+        {
+            "name": "waitingPeriod",
+            "dataType": "number",
+            "displayName": "waiting Period",
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "policyStatus",
+            "dataType": "String",
+            "displayName": "Policy Status",
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "claimSubmissionPeriod",
+            "dataType": "number",
+            "displayName": "claimSubmissionPeriod",
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "policyStartDate",
+            "dataType": "string",
+            "displayName": "policy Start Date",
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        },
+        {
+            "name": "eventDate",
+            "dataType": "string",
+            "displayName": "Event Date",
+            "behaviour": [{
+                "value": "CLAIMS"
+            }]
+        }
+    ]
+}

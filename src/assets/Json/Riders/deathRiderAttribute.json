@@ -1,0 +1,1055 @@
+{
+    "_id": "PRODUCT_DEFINITION/S00309/A.3",
+    "documentType": "PRODUCT_DEFINITION",
+    "code": "S00309",
+    "version": "A.3",
+    "shortName": "DeathBenefit",
+    "fullName": "DeathBenefit",
+    "desc": "Protection for your family in case of your death",
+    "effectiveFrom": "1979-12-31T18:30:00Z",
+    "effectiveTo": "2030-12-31T18:30:00Z",
+    "toolVersion": "1.0.0.0",
+    "offeringType": "RIDER",
+    "canBeCloned": "Y",
+    "isTemplate": "N",
+    "status": "Inprogress",
+    "category": "Life",
+    "LBU": {
+      "id": 1,
+      "distributingLOB": "DIGITAL",
+      "distributingCurrency": ""
+    },
+    "transactionContext": [
+      {
+        "id": "SALES-ANY-ALL",
+        "transaction": "SALES",
+        "transactionRole": "ANY",
+        "transactionChannel": "ALL"
+      },
+      {
+        "id": "CLAIMS-ANY-ALL",
+        "transaction": "CLAIMS",
+        "transactionRole": "ANY",
+        "transactionChannel": "ALL"
+      },
+      {
+        "id": "ALL-ANY-ALL",
+        "transaction": "ALL",
+        "transactionRole": "ANY",
+        "transactionChannel": "ALL"
+      }
+    ],
+    "productDisplayBehaviour": {
+      "visibleInFrontCatalog": "Y",
+      "productGroupName": "Life",
+      "productDisplayName": "Death Benefit"
+    },
+    "salesPartner": null,
+    "attributes": [
+      {
+        "name": "totalPremium",
+        "dataType": "number",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 1,
+              "visibleInCatalog": true,
+              "displayName": "Premium"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_totalPremium",
+        "dataType": "number",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 1,
+              "visibleInCatalog": false,
+              "displayName": "BasePremium"
+            }
+          }
+        ]
+      },
+      {
+        "name": "totalSumAssured",
+        "dataType": "number",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 2,
+              "visibleInCatalog": true,
+              "displayName": "Maximum Sum Assured"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_totalSumAssured",
+        "dataType": "number",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 3,
+              "visibleInCatalog": false,
+              "displayName": "Base maximum Sum Assured"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_policyTerm",
+        "dataType": "number",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 4,
+              "visibleInCatalog": false,
+              "displayName": "Base Policy Term"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_waitingPeriod",
+        "dataType": "number",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 5,
+              "visibleInCatalog": false,
+              "displayName": "Base Waiting Period"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_policyStatus",
+        "dataType": "string",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 6,
+              "visibleInCatalog": false,
+              "displayName": "Base Policy Status"
+            }
+          }
+        ]
+      },
+      {
+        "name": "eventDate",
+        "dataType": "string",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "CLAIMS-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 7,
+              "visibleInCatalog": true,
+              "displayName": "Base Event Date"
+            }
+          }
+        ]
+      },
+      {
+        "name": "policyStartDate",
+        "dataType": "string",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 8,
+              "visibleInCatalog": true,
+              "displayName": "Base Policy Start Date"
+            }
+          }
+        ]
+      },
+      {
+        "name": "causeOfDeath",
+        "dataType": "string",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "CLAIMS-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 9,
+              "visibleInCatalog": true,
+              "displayName": "Cause Of Death"
+            },
+            "allowedValues": [
+              {
+                "displayValue": "Hypertension",
+                "displayIndex": 1,
+                "value": "Hypertension",
+                "default": false
+              },
+              {
+                "displayValue": "Diabetes",
+                "displayIndex": 2,
+                "value": "Diabetes",
+                "default": false
+              },
+              {
+                "displayValue": "Heart Disease",
+                "displayIndex": 3,
+                "value": "Heart Disease",
+                "default": false
+              },
+              {
+                "displayValue": "Liver Disease",
+                "displayIndex": 4,
+                "value": "Liver Disease",
+                "default": false
+              },
+              {
+                "displayValue": "Kidney Disease",
+                "displayIndex": 5,
+                "value": "Kidney Disease",
+                "default": false
+              },
+              {
+                "displayValue": "Cancer",
+                "displayIndex": 6,
+                "value": "Cancer",
+                "default": false
+              },
+              {
+                "displayValue": "Overdose Of Drugs",
+                "displayIndex": 7,
+                "value": "Overdose Of Drugs",
+                "default": false
+              },
+              {
+                "displayValue": "Accidental",
+                "displayIndex": 8,
+                "value": "Accidental",
+                "default": false
+              },
+              {
+                "displayValue": "Suicide",
+                "displayIndex": 9,
+                "value": "Suicide",
+                "default": false
+              },
+              {
+                "displayValue": "Others",
+                "displayIndex": 10,
+                "value": "Others",
+                "default": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "planCode",
+        "dataType": "string",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 10,
+              "visibleInCatalog": false,
+              "displayName": "Plan Code"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_coveragePremium",
+        "dataType": "number",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": true,
+              "displayIndex": 11,
+              "visibleInCatalog": false,
+              "displayName": "Base Coverage premium"
+            }
+          }
+        ]
+      },
+      {
+        "name": "claimantRole",
+        "dataType": "string",
+        "value": "Beneficiary",
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 12,
+              "visibleInCatalog": false,
+              "displayName": "Claimant Role"
+            }
+          }
+        ]
+      },
+      {
+        "name": "placeOfDeath",
+        "dataType": "string",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 13,
+              "visibleInCatalog": true,
+              "displayName": "Place Of Death"
+            },
+            "allowedValues": [
+              {
+                "displayValue": "Hospital/Clinic",
+                "displayIndex": 1,
+                "value": "Hospital/Clinic",
+                "default": false
+              },
+              {
+                "displayValue": "Residence",
+                "displayIndex": 2,
+                "value": "Residence",
+                "default": false
+              },
+              {
+                "displayValue": "Office",
+                "displayIndex": 3,
+                "value": "Office",
+                "default": false
+              },
+              {
+                "displayValue": "Others",
+                "displayIndex": 4,
+                "value": "Others",
+                "default": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "base_claimSubmissionPeriod",
+        "dataType": "number",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "CLAIMS-ANY-ALL"
+            },
+            "display": {
+              "hidden": true,
+              "displayIndex": 11,
+              "visibleInCatalog": false,
+              "displayName": "Base Claim Submission Period"
+            }
+          }
+        ]
+      },
+      {
+        "name": "claimSubmissionDate",
+        "dataType": "string",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "CLAIMS-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 11,
+              "visibleInCatalog": true,
+              "displayName": "Claim Submission Date"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_isIMApplicable",
+        "dataType": "boolean",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "CLAIMS-ANY-ALL"
+            },
+            "display": {
+              "hidden": true,
+              "displayIndex": 12,
+              "visibleInCatalog": false,
+              "displayName": "base_isIMApplicable"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_isIMSelected",
+        "dataType": "boolean",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "CLAIMS-ANY-ALL"
+            },
+            "display": {
+              "hidden": true,
+              "displayIndex": 13,
+              "visibleInCatalog": false,
+              "displayName": "base_isIMSelected"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_IMRate",
+        "dataType": "number",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "CLAIMS-ANY-ALL"
+            },
+            "display": {
+              "hidden": true,
+              "displayIndex": 14,
+              "visibleInCatalog": false,
+              "displayName": "base_IMRate"
+            }
+          }
+        ]
+      },
+      {
+        "name": "base_IMAllowedConditions",
+        "dataType": "string",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "CLAIMS-ANY-ALL"
+            },
+            "display": {
+              "hidden": true,
+              "displayIndex": 15,
+              "visibleInCatalog": false,
+              "displayName": "base_IMAllowedConditions"
+            }
+          }
+        ]
+      },
+      {
+        "name": "claimTemplateType",
+        "dataType": "string",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 16,
+              "visibleInCatalog": false,
+              "displayName": "claimTemplateType"
+            }
+          }
+        ]
+      },
+      {
+        "name": "isSelected",
+        "dataType": "boolean",
+        "value": null,
+        "copyFromAttribute": null,
+        "copyToChild": false,
+        "behaviours": [
+          {
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            },
+            "display": {
+              "hidden": false,
+              "displayIndex": 12,
+              "visibleInCatalog": false,
+              "displayName": "isSelected"
+            }
+          }
+        ]
+      }
+    ],
+    "components": [
+      {
+        "id": "C001",
+        "code": "S00304",
+        "version": null,
+        "name": "RISK",
+        "desc": "RISK",
+        "relationshipTypeName": "INTERNAL",
+        "computeOverride": null,
+        "behaviours": [
+          {
+            "transactionContextRef": null,
+            "displayIndex": 1,
+            "displayName": "RISK",
+            "isViewable": false,
+            "minimum": 1,
+            "default": 1,
+            "maximum": 1
+          }
+        ],
+        "attributes": null
+      }
+    ],
+    "insuredObjs": [
+      {
+        "id": 1,
+        "name": "POLICYHOLDER",
+        "desc": null,
+        "type": "POLICYHOLDER",
+        "selectionCriteria": null,
+        "coverages": [
+          {
+            "id": "COV1",
+            "name": "DEATH",
+            "desc": "Protection for your family in case of your death",
+            "riderRef": "THIS",
+            "event": {
+              "name": "DEATH",
+              "desc": "Protection for your family in case of your death",
+              "eventType": "DEATH",
+              "selectionCriteria": [
+                {
+                  "type": "INCLUSION",
+                  "functionName": "checkProductAvailability"
+                }
+              ]
+            },
+            "indemnities": [
+              {
+                "id": "C001",
+                "name": "DEATH",
+                "desc": "Protection for your family in case of your death",
+                "addition": "CUMULATIVE",
+                "type": "Simple",
+                "computes": [
+                  {
+                    "type": "BENEFIT",
+                    "functionName": "F_Calculate_Benefit"
+                  },
+                  {
+                    "type": "BENEFIT",
+                    "functionName": "F_Calculate_DeathClaim"
+                  }
+                ],
+                "selectionCriteria": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "computes": {
+      "allFunctionsDefinitions": "function F_Calculate_Benefit(base_totalSumAssured){var benefitAmount=base_totalSumAssured!=0?base_totalSumAssured:\"0\";return  { \"totalSumAssured\": benefitAmount};\r\n} function F_Calculate_DeathClaim(base_totalSumAssured,base_isIMApplicable,base_isIMSelected,base_IMRate,base_IMAllowedConditions,causeOfDeath){if(base_totalSumAssured != 0){if(base_isIMApplicable === true && base_isIMSelected === true && causeOfDeath == base_IMAllowedConditions){return  { \"totalSumAssured\": base_totalSumAssured * base_IMRate};} else { return  { \"totalSumAssured\": base_totalSumAssured};}} else  return  { \"totalSumAssured\": \"0\"};\r\n} function checkProductAvailability(base_waitingPeriod,base_policyStatus,eventDate,policyStartDate,causeOfDeath,base_claimSubmissionPeriod,claimSubmissionDate){if( causeOfDeath.toUpperCase() == \"SUICIDE\"){this.errorMessage = \"Cause of death cannot be suicide.\"; this.errorCode = 6000;return false;} if(calculateDaysBetweenDates(policyStartDate,eventDate) >= base_waitingPeriod){if((base_claimSubmissionPeriod > 0 && calculateDaysBetweenDates(eventDate,claimSubmissionDate) < base_claimSubmissionPeriod) || base_claimSubmissionPeriod == 0) {return true} else {this.errorMessage = \"Claim is submitted after the claim submission period.\"; this.errorCode = 6001;return false;}} else {this.errorMessage = \"No claims allowed in the waiting period duration.\"; this.errorCode = 6002;return false;} \r\n} ",
+      "functionGroups": [
+        {
+          "type": "BENEFIT",
+          "functions": [
+            {
+              "transactionContextRef": [
+                "SALES-ANY-ALL"
+              ],
+              "functionName": "F_Calculate_Benefit",
+              "functionBody": "var benefitAmount=base_totalSumAssured!=0?base_totalSumAssured:\"0\";return  { \"totalSumAssured\": benefitAmount};",
+              "input": [
+                {
+                  "name": "base_totalSumAssured",
+                  "attributeMapping": {
+                    "domainObjectMapping": "",
+                    "source": "product",
+                    "productCode": "THIS",
+                    "attributeName": "base_totalSumAssured"
+                  }
+                }
+              ],
+              "output": {
+                "name": "benefitInfo",
+                "dataType": "jsonString",
+                "attributeMapping": [
+                  {
+                    "domainObjectMapping": "",
+                    "source": "productOption",
+                    "outputPropertyName": "totalSumAssured",
+                    "productCode": "THIS",
+                    "attributeName": "totalSumAssured"
+                  }
+                ]
+              },
+              "order": 1
+            },
+            {
+              "transactionContextRef": [
+                "CLAIMS-ANY-ALL"
+              ],
+              "functionName": "F_Calculate_DeathClaim",
+              "functionBody": "if(base_totalSumAssured != 0){if(base_isIMApplicable === true && base_isIMSelected === true && causeOfDeath == base_IMAllowedConditions){return  { \"totalSumAssured\": base_totalSumAssured * base_IMRate};} else { return  { \"totalSumAssured\": base_totalSumAssured};}} else  return  { \"totalSumAssured\": \"0\"};",
+              "input": [
+                {
+                  "name": "base_totalSumAssured",
+                  "attributeMapping": {
+                    "domainObjectMapping": "",
+                    "source": "product",
+                    "productCode": "THIS",
+                    "attributeName": "base_totalSumAssured"
+                  }
+                },
+                {
+                  "name": "base_isIMApplicable",
+                  "attributeMapping": {
+                    "domainObjectMapping": "",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "base_isIMApplicable"
+                  }
+                },
+                {
+                  "name": "base_isIMSelected",
+                  "attributeMapping": {
+                    "domainObjectMapping": "",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "base_isIMSelected"
+                  }
+                },
+                {
+                  "name": "base_IMRate",
+                  "attributeMapping": {
+                    "domainObjectMapping": "",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "base_IMRate"
+                  }
+                },
+                {
+                  "name": "base_IMAllowedConditions",
+                  "attributeMapping": {
+                    "domainObjectMapping": "",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "base_IMAllowedConditions"
+                  }
+                },
+                {
+                  "name": "causeOfDeath",
+                  "attributeMapping": {
+                    "domainObjectMapping": "$..causeOfDeath",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "causeOfDeath"
+                  }
+                }
+              ],
+              "output": {
+                "name": "benefitInfo",
+                "dataType": "jsonString",
+                "attributeMapping": [
+                  {
+                    "domainObjectMapping": "$..amountClaimed",
+                    "source": "",
+                    "outputPropertyName": "totalSumAssured",
+                    "productCode": "THIS",
+                    "attributeName": "totalSumAssured"
+                  }
+                ]
+              },
+              "order": 1
+            }
+          ]
+        },
+        {
+          "type": "INCLUSION",
+          "functions": [
+            {
+              "transactionContextRef": [
+                "CLAIMS-ANY-ALL"
+              ],
+              "functionName": "checkProductAvailability",
+              "functionBody": "if( causeOfDeath.toUpperCase() == \"SUICIDE\"){this.errorMessage = \"Cause of death cannot be suicide.\"; this.errorCode = 6000;return false;} if(calculateDaysBetweenDates(policyStartDate,eventDate) >= base_waitingPeriod){if((base_claimSubmissionPeriod > 0 && calculateDaysBetweenDates(eventDate,claimSubmissionDate) < base_claimSubmissionPeriod) || base_claimSubmissionPeriod == 0) {return true} else {this.errorMessage = \"Claim is submitted after the claim submission period.\"; this.errorCode = 6001;return false;}} else {this.errorMessage = \"No claims allowed in the waiting period duration.\"; this.errorCode = 6002;return false;} ",
+              "input": [
+                {
+                  "name": "base_waitingPeriod",
+                  "attributeMapping": {
+                    "domainObjectMapping": "",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "base_waitingPeriod"
+                  }
+                },
+                {
+                  "name": "base_policyStatus",
+                  "attributeMapping": {
+                    "domainObjectMapping": "$..policy.status",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "base_policyStatus"
+                  }
+                },
+                {
+                  "name": "eventDate",
+                  "attributeMapping": {
+                    "domainObjectMapping": "$..eventDate",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "eventDate"
+                  }
+                },
+                {
+                  "name": "policyStartDate",
+                  "attributeMapping": {
+                    "domainObjectMapping": "$..firstIssueDate",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "policyStartDate"
+                  }
+                },
+                {
+                  "name": "causeOfDeath",
+                  "attributeMapping": {
+                    "domainObjectMapping": "$..causeOfDeath",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "causeOfDeath"
+                  }
+                },
+                {
+                  "name": "base_claimSubmissionPeriod",
+                  "attributeMapping": {
+                    "domainObjectMapping": "",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "base_claimSubmissionPeriod"
+                  }
+                },
+                {
+                  "name": "claimSubmissionDate",
+                  "attributeMapping": {
+                    "domainObjectMapping": "$..submissionDate",
+                    "source": "",
+                    "productCode": "THIS",
+                    "attributeName": "claimSubmissionDate"
+                  }
+                }
+              ],
+              "output": {
+                "name": "planInfo",
+                "dataType": "jsonString"
+              },
+              "order": 0
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "tableName": "T_UI_MODULES",
+          "tableType": "UI_MODULES",
+          "tableData": [
+            {
+              "DESCRIPTION": "Details of Death",
+              "MODULE NAME": "Death_Module"
+            }
+          ]
+        }
+      ]
+    },
+    "customerJourney": null,
+    "questionnaire": {
+      "questionGroups": [
+        {
+          "questionSet": [
+            {
+              "questionCode": "Q001",
+              "isRoot": "Y",
+              "question": "Have you had any Hostpitalisation Episodes in the last 10 years",
+              "options": {
+                "Option": [
+                  {
+                    "code": "Op3",
+                    "value": "Y",
+                    "name": "Major Abdominal Surgery",
+                    "actionType": "Question",
+                    "action": "Q003"
+                  },
+                  {
+                    "code": "null",
+                    "value": "null",
+                    "name": "Day Surgery",
+                    "actionType": "Complete",
+                    "action": "Accept"
+                  }
+                ]
+              }
+            },
+            {
+              "questionCode": "Q002",
+              "isRoot": "N",
+              "question": "What was the reason for the Hospitalisation",
+              "options": {
+                "Option": [
+                  {
+                    "code": null,
+                    "value": null,
+                    "name": null,
+                    "actionType": null,
+                    "action": null
+                  },
+                  {
+                    "code": null,
+                    "value": null,
+                    "name": null,
+                    "actionType": null,
+                    "action": null
+                  },
+                  {
+                    "code": "null",
+                    "value": "null",
+                    "name": "Heart, Lungs Liver",
+                    "actionType": "Complete",
+                    "action": "Refer"
+                  },
+                  {
+                    "code": null,
+                    "value": null,
+                    "name": null,
+                    "actionType": null,
+                    "action": null
+                  }
+                ]
+              }
+            },
+            {
+              "questionCode": "Q003",
+              "isRoot": "Y",
+              "question": "Was the Surgery Successful, Has there been any Relapse",
+              "options": {
+                "Option": [
+                  {
+                    "code": "Op1",
+                    "value": "Y",
+                    "name": "Yes",
+                    "actionType": "Complete",
+                    "action": "Reject"
+                  }
+                ]
+              }
+            }
+          ],
+          "Code": "QS001"
+        }
+      ]
+    },
+    "productDocumentTemplateMap": null,
+    "productDocument": [
+      {
+        "id": "1",
+        "category": "Mandatory",
+        "description": "E policy certificate",
+        "transactionContext": {
+          "id": "CLAIMS-ANY-ALL"
+        },
+        "channel": {
+          "id": "PRUDENTIAL_EN"
+        }
+      },
+      {
+        "id": "2",
+        "category": "Mandatory",
+        "description": "Copy of Death Certificate issued by local authority",
+        "transactionContext": {
+          "id": "CLAIMS-ANY-ALL"
+        },
+        "channel": {
+          "id": "PRUDENTIAL_EN"
+        }
+      },
+      {
+        "id": "3",
+        "category": "Mandatory",
+        "description": "Claimant's NRC/Household Statement",
+        "transactionContext": {
+          "id": "CLAIMS-ANY-ALL"
+        },
+        "channel": {
+          "id": "PRUDENTIAL_EN"
+        }
+      },
+      {
+        "id": "4",
+        "category": "Mandatory",
+        "description": "Claimant's recommendation letters from local authority",
+        "transactionContext": {
+          "id": "CLAIMS-ANY-ALL"
+        },
+        "channel": {
+          "id": "PRUDENTIAL_EN"
+        }
+      },
+      {
+        "id": "5",
+        "category": "Additional",
+        "description": "Copy of Cheque or Passbook",
+        "transactionContext": {
+          "id": "CLAIMS-ANY-ALL"
+        },
+        "channel": {
+          "id": "PRUDENTIAL_EN"
+        }
+      },
+      {
+        "id": "6",
+        "category": "Natural Death",
+        "description": "Medical records(Admission notes, Discharge Summary)",
+        "transactionContext": {
+          "id": "CLAIMS-ANY-ALL"
+        },
+        "channel": {
+          "id": "PRUDENTIAL_EN"
+        }
+      },
+      {
+        "id": "7",
+        "category": "Accidental Death",
+        "description": "Copy of Police report/Inquest report",
+        "transactionContext": {
+          "id": "CLAIMS-ANY-ALL"
+        },
+        "channel": {
+          "id": "PRUDENTIAL_EN"
+        }
+      },
+      {
+        "id": "8",
+        "category": "Accidental Death",
+        "description": "Post-mortem report",
+        "transactionContext": {
+          "id": "CLAIMS-ANY-ALL"
+        },
+        "channel": {
+          "id": "PRUDENTIAL_EN"
+        }
+      },
+      {
+        "id": "9",
+        "category": "Accidental Death",
+        "description": "Driving License of Life Assured",
+        "transactionContext": {
+          "id": "CLAIMS-ANY-ALL"
+        },
+        "channel": {
+          "id": "PRUDENTIAL_EN"
+        }
+      }
+    ],
+    "auditDetail": {
+      "createTime": "2020-04-09T10:48:41.3017183Z",
+      "updateTime": "2020-04-09T10:48:41.3017183Z",
+      "updateBy": "Saurabh.Singh"
+    }
+  }

@@ -1,0 +1,22 @@
+{ "attributes": [
+    {
+        "name": "OVO_Group_Master_Policy_Number",
+        "dataType": "number",
+        "value": null,
+        "displayName": "OVO Group Master Policy Number",
+        "behaviour": [{
+            "value": "ALL"
+        }]
+},
+{
+    "name": "OVO_Group_Source_policy_holder",
+    "dataType": "string",
+    "value": null,
+    "displayName": "OVO_Group Source Policy Holder",
+    "behaviour": [{
+        "value": "ALL"
+    }]
+}  
+]
+}
+

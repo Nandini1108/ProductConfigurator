@@ -1,0 +1,11 @@
+{
+        "allFunctionsDefinitions": "function checkProductAvailability(birthDate){var age = birthdayfunction(birthDate);if(!(age >= ageLower && age <= ageUpper)) {this.errorMessage = \"Age should be within ageLower to ageUpper years.\";this.errorCode = 1000;return false;} else return true;}",
+        "functionName": "checkProductAvailability",
+        "functionBody": "var age = birthdayfunction(birthDate);if(!(age >= ageLower && age <= ageUpper)) {this.errorMessage = \"Age should be within ageLower to ageUpper years.\";this.errorCode = 1000;return false;} else return true;",
+        "input": "birthDate",
+        "output": {
+                "name": "planInfo",
+                "dataType": "jsonString"
+        }
+
+}

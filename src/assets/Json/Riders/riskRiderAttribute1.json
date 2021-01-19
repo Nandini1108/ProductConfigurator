@@ -1,0 +1,707 @@
+{
+    "_id": "PRODUCT_DEFINITION/S00304/A.1",
+    "canBeCloned": "Y",
+    "version": "A.1",
+    "category": "Risk",
+    "code": "S00304",
+    "customerJourney": null,
+    "desc": "Risk - All Products Risk criteria defined in this product",
+    "documentType": "PRODUCT_DEFINITION",
+    "effectiveFrom": "1979-12-31T18:30:00Z",
+    "effectiveTo": "2030-12-31T18:30:00Z",
+    "fullName": "Risk",
+    "isTemplate": "N",
+    "offeringType": "INTERNAL",
+    "LBU": {
+      "distributingCurrency": "",
+      "distributingLOB": "DIGITAL",
+      "id": 1
+    },
+    "productDisplayBehaviour": {
+      "productDisplayName": "Risk",
+      "productGroupName": "Health",
+      "transactionContextRef": "ALL-ANY-ALL",
+      "visibleInFrontCatalog": "N"
+    },
+    "shortName": "Risk",
+    "status": "Inprogress",
+    "toolVersion": "5.1.0.0",
+    "transactionContext": [
+      {
+        "id": "ALL-ANY-ALL",
+        "transaction": "ALL",
+        "transactionChannel": "ALL",
+        "transactionRole": "ANY"
+      }
+    ],
+    "attributes": [
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Birth Date",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "dateTime",
+        "name": "birthDate"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Age",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "number",
+        "name": "age"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Is Minor",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "boolean",
+        "name": "isMinor"
+      },
+      {
+        "behaviours": [
+          {
+            "allowedValues": [
+              {
+                "displayIndex": 1,
+                "displayValue": "Male",
+                "value": "M"
+              },
+              {
+                "displayIndex": 2,
+                "displayValue": "Female",
+                "value": "F"
+              }
+            ],
+            "display": {
+              "displayIndex": 2,
+              "displayName": "gender",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "gender"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Religion",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "religion"
+      },
+      {
+        "behaviours": [
+          {
+            "allowedValues": [
+              {
+                "displayIndex": "1",
+                "displayValue": "Citizen",
+                "value": "Citizen"
+              },
+              {
+                "displayIndex": 2,
+                "displayValue": "Permanent Resident",
+                "value": "Permanent Resident"
+              },
+              {
+                "displayIndex": 3,
+                "displayValue": "Work Permit",
+                "value": "Work Permit"
+              }
+            ],
+            "display": {
+              "displayIndex": 3,
+              "displayName": "Resident Status",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "residentStatus"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Alcoholic",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "boolean",
+        "name": "alcoholic"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Smoker",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "boolean",
+        "name": "smoker"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Education",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "education"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Language",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "language"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "height",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "number",
+        "name": "height"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Height Unit",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "heightUnit"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Weight",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "number",
+        "name": "weight"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Weight Unit",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "weightUnit"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "BMI",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "number",
+        "name": "bmi"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "BMI Description",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "bmiDesc"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Allergies",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "allergies"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Family History",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "familyHistory"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Occupation Code",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "number",
+        "name": "occupationCode"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "occupationClass",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "occupationClass"
+      },
+      {
+        "behaviours": [
+          {
+            "allowedValues": [
+              {
+                "displayIndex": 1,
+                "displayValue": "POLICYHOLDER",
+                "value": "POLICYHOLDER"
+              },
+              {
+                "displayIndex": 2,
+                "displayValue": "DEPENDENT",
+                "value": "DEPENDENT"
+              },
+              {
+                "displayIndex": 3,
+                "displayValue": "FATHER",
+                "value": "FATHER"
+              }
+            ],
+            "display": {
+              "displayIndex": 2,
+              "displayName": "Relation with Policy Holder",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "objectType"
+      },
+      {
+        "behaviours": [
+          {
+            "allowedValues": [
+              {
+                "default": false,
+                "displayIndex": 1,
+                "displayValue": "Refer",
+                "value": "Refer"
+              },
+              {
+                "default": false,
+                "displayIndex": 1,
+                "displayValue": "Refer",
+                "value": "Refer"
+              },
+              {
+                "default": false,
+                "displayIndex": 1,
+                "displayValue": "Refer",
+                "value": "Refer"
+              }
+            ],
+            "display": {
+              "displayIndex": 1,
+              "displayName": "UW Status",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "uwStatus"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 2,
+              "displayName": "Loading Factor",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "number",
+        "name": "uwLoadingFactor"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 3,
+              "displayName": "FollowUps",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "uwFollowups"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 12,
+              "displayName": "Blood Pressure - Diastolic",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "number",
+        "name": "bpDiastolic"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 13,
+              "displayName": "Blood Pressure - Systolic",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "number",
+        "name": "bpSystolic"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "NRIC",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "nric"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Email",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "email"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Scenario",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "scenario"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "KtpId",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "ktpId"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "First Name",
+              "hidden": false,
+              "visibleInCatalog": true
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "firstName"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Last Name",
+              "hidden": false,
+              "visibleInCatalog": false
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "lastName"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Device Id",
+              "hidden": false,
+              "visibleInCatalog": false
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "deviceId"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "National Id",
+              "hidden": false,
+              "visibleInCatalog": false
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "nationalId"
+      },
+      {
+        "behaviours": [
+          {
+            "display": {
+              "displayIndex": 1,
+              "displayName": "Phone Number",
+              "hidden": false,
+              "visibleInCatalog": false
+            },
+            "transactionContext": {
+              "id": "ALL-ANY-ALL"
+            }
+          }
+        ],
+        "dataType": "string",
+        "name": "phone"
+      }
+    ],
+    "insuredObjs": null,
+    "questionnaire": null,
+    "documentTemplates": null,
+    "auditDetail": {
+      "createTime": "1979-12-31T18:30:00Z",
+      "updateTime": "1979-12-31T18:30:00Z"
+    }
+  }
